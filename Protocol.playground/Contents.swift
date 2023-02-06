@@ -64,7 +64,7 @@ protocol Teacher {
 
 struct DevTeacher: Human, Developer, Teacher {
     var name: String
-    
+     
     var speciality: Speciality
     
     var experienseInYears: Int
